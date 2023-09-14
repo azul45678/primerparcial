@@ -1,0 +1,11 @@
+def invertir_palabras(texto):
+  palabras = texto.split()
+  palabrasinv = palabras[::-1]
+  invertido = " ".join(palabrasinv)
+  return invertido
+
+  def main():
+    texto = "Los postres son la clave de la felicidad"
+    texto_invertido = invertir_palabras(texto)
+    print(texto_invertido)
+  main()   
