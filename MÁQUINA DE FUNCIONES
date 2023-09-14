@@ -1,0 +1,43 @@
+#FUNCIÓN N° 1
+
+def f(x): 
+  f_x=-2*x+34 
+  return f_x
+
+y = f(3)
+
+print(y)
+
+
+
+FUNCIÓN N°2
+def f(x):
+  f_x=-x/3 -10 
+  return f_x 
+
+y= f(5)
+
+print(y) 
+
+
+
+FUNCIÓN N° 3
+
+def f(x):
+  f_x=-abs(3*x)
+  return f abs(x)
+
+y=f(3)
+
+print(y)
+
+
+
+FUNCIÓN N° 4 
+def f(x: 
+ f_x= (x-2)**2
+ return f_x
+
+y=f(5)
+
+print(y) 
