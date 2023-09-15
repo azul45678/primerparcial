@@ -1,0 +1,15 @@
+# PEDIR el costo de la comida y el porcentaje de propina
+# Calcular la cantidad de propina
+# Calcular el monto total a pagar
+# Mostrar el monto total a pagar, la cantidad de propina y el costo original de la comida
+costo_comida = float(input("Ingrese el costo de la comida: $"))
+porcentaje_propina = float(input("Ingrese el porcentaje de propina que desea dar (%): "))
+
+propina = costo_comida * (porcentaje_propina / 100)
+
+monto_total = costo_comida + propina
+
+print(f"Costo original de la comida: ${costo_comida:.2f}")
+print(f"Porcentaje de propina: {porcentaje_propina}%")
+print(f"Cantidad de propina a pagar: ${propina:.2f}")
+print(f"Monto total a pagar: ${monto_total:.2f}")
