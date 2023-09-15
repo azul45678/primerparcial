@@ -1,0 +1,11 @@
+el porcentaje de descuento: "))
+
+# Calcular el monto de descuento
+monto_descuento = precio_original * (porcentaje_descuento / 100)
+
+precio_final = precio_original - monto_descuento
+
+print(f"Precio original del producto: ${precio_original:.2f}")
+print(f"Porcentaje de descuento aplicado: {porcentaje_descuento}%")
+print(f"Monto de descuento: ${monto_descuento:.2f}")
+print(f"Precio final después del descuento: ${precio_final:.2f}")
