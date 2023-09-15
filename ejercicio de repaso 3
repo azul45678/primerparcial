@@ -1,0 +1,14 @@
+# Solicitar al usuario la cantidad de dinero invertida, la tasa de interés anual y el número de años
+# Calcular el interés ganado
+# Calcular la cantidad total después de la inversión
+# Mostrar el interés ganado y el monto total después de la inversión
+cantidad_invertida = float(input("Ingrese la cantidad de dinero invertida: "))
+tasa_interes_anual = float(input("Ingrese la tasa de interés anual (%): "))
+num_anios = int(input("Ingrese el número de años de la inversión: "))
+
+interes_ganado = cantidad_invertida * (tasa_interes_anual / 100) * num_anios
+
+monto_total = cantidad_invertida + interes_ganado
+
+print(f"Interés ganado: ${interes_ganado:.2f}")
+print(f"Monto total después de la inversión: ${monto_total:.2f}")
